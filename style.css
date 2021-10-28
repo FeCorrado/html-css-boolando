@@ -6,7 +6,7 @@
 }
 
 .main-container{ 
-    width: 2200px;
+    width: 2000px;
     margin: auto;
     
 }
@@ -15,7 +15,7 @@
     display: inline-block;
     margin: 10px 5px;
     position: relative;
-    
+    width: 640px;
     
 }
 
@@ -31,13 +31,13 @@ img{
     width: 50px;
     text-align: center;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 20px;
     right: 0px;
 }
 
 .tags{
-    z-index: 1;
+    z-index: 2;
     display: inline-block;
     bottom: 20px;
     left: 0px;
@@ -85,3 +85,142 @@ img{
     width: 640;
 }
 
+/* tag che fanno riferimento alle immagini comparsa/scomparsa */
+.foto1a{
+    background: url(img/1.webp);
+    width: 640px;
+    height: 924px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    border: 0px solid;
+    background-size: 100%%;
+}
+
+.foto1b{
+    display: none;
+    width: 640px;
+    height: 924px;
+}
+
+
+.foto1a:hover img{
+    display: block;
+    
+}
+
+.foto2a{
+    background: url(img/2.webp);
+    width: 640px;
+    height: 924px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    border: 0px solid;
+    background-size: 100%%;
+}
+
+.foto2b{
+    display: none;
+    width: 640px;
+    height: 924px;
+}
+
+
+.foto2a:hover img{
+    display: block;
+    
+}
+
+.foto3a{
+    background: url(img/3.webp);
+    width: 640px;
+    height: 924px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    border: 0px solid;
+    background-size: 100%%;
+}
+
+.foto3b{
+    display: none;
+    width: 640px;
+    height: 924px;
+}
+
+
+.foto3a:hover img{
+    display: block;
+    
+}
+
+.foto4a{
+    background: url(img/4.webp);
+    width: 640px;
+    height: 924px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    border: 0px solid;
+    background-size: 100%%;
+}
+
+.foto4b{
+    display: none;
+    width: 640px;
+    height: 924px;
+}
+
+
+.foto4a:hover img{
+    display: block;
+    
+}
+
+.foto5a{
+    background: url(img/5.webp);
+    width: 640px;
+    height: 924px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    border: 0px solid;
+    background-size: 100%%;
+}
+
+.foto5b{
+    display: none;
+    width: 640px;
+    height: 924px;
+   
+}
+
+
+.foto5a:hover img{
+    display: block;
+    
+}
+.foto6a{
+    background: url(img/6.webp);
+    width: 640px;
+    height: 924px;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    border: 0px solid;
+    background-size: 100%%;
+}
+
+.foto6b{
+    display: none;
+    width: 640px;
+    height: 924px;
+}
+
+
+.foto6a:hover img{
+    display: block;
+    
+}
+/* fine tag che fanno riferimento alle immagini comparsa/scomparsa */
